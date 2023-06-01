@@ -1,0 +1,177 @@
+           * {
+               margin: 0;
+               padding: 0;
+               box-sizing: border-box;
+               font-family: 'Poppins', sans-serif;
+           }
+           
+           .header1 {
+               position: sticky;
+               z-index: 1000;
+               top: 0;
+               background-color: #BC834E;
+               height: 10vh;
+           }
+           
+           .header {
+               width: 100%;
+               height: 100vh;
+               background-position: center;
+               background-size: cover;
+           }
+           
+           ul {
+               list-style: none;
+               padding: 0 15px;
+           }
+           
+           ul li {
+               margin: 30px 0;
+               display: flex;
+               align-items: center;
+               justify-content: center;
+               cursor: pointer;
+           }
+           
+           ul li img {
+               width: 35px;
+               margin-right: 0;
+               margin-bottom: -140%;
+               padding-top: 140%;
+           }
+           
+           ul li a {
+               list-style: none;
+               text-decoration: none;
+               display: none;
+           }
+           
+           ul li p {
+               white-space: nowrap;
+               display: none;
+               color: white;
+           }
+           
+           .side-nav {
+               width: 90px;
+               height: 100%;
+               position: fixed;
+               top: 0;
+               left: 0;
+               padding: 30px 15px;
+               display: flex;
+               background-color: #2e1503;
+               justify-content: space-between;
+               flex-direction: column;
+               z-index: 1000;
+           }
+           
+           .title {
+               display: flex;
+               align-items: center;
+               justify-content: space-between;
+               font-size: 12px;
+               margin-left: auto;
+               margin-right: auto;
+               overflow: hidden;
+           }
+           
+           .user {
+               display: flex;
+               align-items: center;
+               justify-content: space-between;
+               width: 60px;
+               font-size: 12px;
+               padding: 10px;
+               border-radius: 8px;
+               margin-left: 94%;
+           }
+           
+           .side-nav:hover {
+               width: 255px;
+           }
+           
+           .side-nav:hover .user div {
+               display: block;
+           }
+           
+           .side-nav:hover .user {
+               width: 100%;
+           }
+           
+           .side-nav:hover .star-img {
+               display: block;
+           }
+           
+           .user div {
+               display: none;
+           }
+           
+           .title .tita {
+               font-size: 12px;
+               font-weight: 600;
+               white-space: nowrap;
+               color: white;
+           }
+           
+           .side-nav:hover .title .tita {
+               font-size: 16px;
+               font-weight: 600;
+               white-space: nowrap;
+               margin-top: -84%;
+               color: white;
+           }
+           
+           .side-nav:hover .title {
+               display: flex;
+               align-items: center;
+               justify-content: space-between;
+               font-size: 12px;
+               margin-left: auto;
+               margin-right: auto;
+               overflow: hidden;
+           }
+           
+           .user p {
+               font-size: 12px;
+               font-weight: 300;
+               white-space: nowrap;
+               color: white;
+           }
+           
+           .user-image {
+               width: 50px;
+               border-radius: 50%;
+               margin: auto;
+               margin-top: 10%;
+           }
+           
+           .star-img {
+               display: none;
+               width: 20px;
+           }
+           
+           .side-nav:hover .user-image {
+               margin: 0;
+               margin-left: 34%;
+           }
+           
+           .side-nav:hover ul li img {
+               margin-right: 0;
+               padding-bottom: -60%;
+               margin-top: -130%;
+               display: block;
+           }
+           
+           .side-nav:hover ul li {
+               justify-content: flex-start;
+               padding-top: -8%;
+           }
+           
+           .side-nav:hover ul li a {
+               display: block;
+               margin-right: 18px;
+               color: white;
+               margin-top: 17%;
+               padding-top: -15%;
+           }

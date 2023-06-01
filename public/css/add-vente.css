@@ -1,0 +1,37 @@
+.btn {
+ background-color: #ccc;
+ color: #8e44ad;
+}
+
+.btn:hover {
+ background-color: #8e44ad;
+ color: #ccc;
+}
+
+.card-header {
+ background-color: #8e44ad;
+ color: #ccc;
+}
+
+.card {
+ margin-top: 6%;
+}
+
+.btn5 {
+ font-size: 1.2rem;
+ color: #8e44ad;
+ background-color: #ccc;
+ margin-top: 1%;
+ margin-left: -1%;
+ position: absolute;
+ padding: 1% 2%;
+ border-radius: 30px;
+ text-decoration: none;
+}
+
+.btn5:hover {
+ color: #ccc;
+ background-color: #8e44ad;
+ text-decoration: none;
+ list-style-type: none;
+}

@@ -1,0 +1,325 @@
+
+.container {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-wrap: wrap;
+ margin-top: 22%;
+
+}
+
+body {
+ background-color: aquamarine;
+}
+
+.form {
+ width: 60%;
+ display: flex;
+ margin-top: -16%;
+ justify-content: center;
+ padding-left: 1%;
+ padding-top: 1%;
+ box-shadow: 1px 1px 3px 1px #18206f;
+ padding-bottom: -2%;
+}
+
+.col {
+ flex: 5;
+}
+
+
+.form-group {
+ width: 100%;
+ padding: -4%;
+}
+
+.form-input {
+ width: 98%;
+ padding: 1% 0;
+ margin-top: -4%;
+ outline: none;
+}
+
+.form-label {
+ font-size: 1.2rem;
+ font-weight: bold;
+ color: #18206f;
+ margin-top: -3%;
+}
+
+.btn4 {
+ font-size: 1.2rem;
+ color: #FFF;
+ background-color: #18206f;
+ border: 2px solid #fff;
+ width: 100%;
+ height: 2em;
+ margin-top: 5%;
+ border-radius: 5px;
+ margin-bottom: 5%;
+ margin-left: 5%;
+}
+
+
+.btn5 {
+ font-size: 1.2rem;
+ color: aquamarine;
+ background-color: #18206f;
+ margin-top: -23%;
+ margin-left: -1%;
+ position: absolute;
+ padding: 1% 2%;
+ text-decoration: none;
+ list-style-type: none;
+ list-style: none;
+ text-decoration: none;
+ border-radius: 30px;
+}
+
+.btn5:hover {
+ color: #d4af37;
+ background-color: #18206f;
+ text-decoration: none;
+ list-style-type: none;
+}
+
+.title {
+ position: absolute;
+ width: 100%;
+ text-align: center;
+ margin-top: -52%;
+}
+
+.title h1 {
+ color: #18206f;
+ font-size: 48px;
+}
+
+.obs {
+ resize: none;
+}
+
+.row {
+ width: 100%;
+ display: flex;
+ margin-top: 3%;
+ padding: 0 2%;
+ justify-content: space-around;
+ flex-wrap: wrap;
+}
+
+.card {
+ flex: 2;
+ width: 27%;
+ border-radius: 10px;
+ box-shadow: 3px 3px 8px;
+ margin-top: 3%;
+}
+
+.btn-action {
+ width: 21vw;
+ height: 35vh;
+}
+
+.card-header {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.card-content {
+ display: flex;
+ width: 100%;
+ align-items: center;
+ justify-content: center;
+ flex-wrap: wrap;
+ margin: 2% 0;
+}
+
+.product-name,
+.product-price,
+.btn-action {
+ margin: 1% 0;
+ width: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.btn4-detail {
+ text-decoration: none;
+}
+
+.product-name,
+.product-price {
+ font-size: 1.2rem;
+ font-weight: bold;
+ color: rgba(16, 12, 238, 0.884);
+}
+
+@media (max-width:450px) {
+ .title {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  margin-top: -4%;
+ }
+
+ .title h1 {
+  color: red;
+  font-size: 18px;
+ }
+
+ .form {
+  width: 70%;
+  display: flex;
+  margin-top: 1%;
+  justify-content: center;
+  padding-left: 1%;
+  padding-top: 1%;
+  background-color: #18206f;
+  border: 2px solid black;
+  padding-bottom: 6%;
+ }
+
+ .form-group {
+  width: 100%;
+  padding: -1%;
+ }
+
+ .form-input {
+  width: 98%;
+  padding: 2% 0;
+  margin-top: 1%;
+  border: 1px solid black;
+ }
+
+ .form-label {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #d4af37;
+ }
+
+ .btn4 {
+  font-size: .7rem;
+  color: #18206f;
+  background-color: #d4af37;
+  margin-top: 95%;
+  margin-left: -99%;
+  padding: 1% 1%;
+  position: absolute;
+ }
+
+ .form-select {
+  width: 230%;
+  padding: -4% 0;
+  padding-left: 1%;
+  height: 3%;
+  font-size: 11px;
+  margin-top: 1%;
+  border: 1px solid black;
+ }
+
+ .btn5 {
+  font-size: 1rem;
+  color: #18206f;
+  background-color: #d4af37;
+  margin-top: -56%;
+  margin-left: -1%;
+  position: absolute;
+  padding: 8px 18px;
+  text-decoration: none;
+  list-style-type: none;
+  list-style: none;
+  text-decoration: none;
+  border-radius: 30px;
+ }
+}
+
+@media(max-width:460px) {
+ .title {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  margin-top: -18%;
+ }
+
+ .title h1 {
+  color: red;
+  font-size: 14px;
+  margin-top: -46%;
+ }
+
+ .form {
+  width: 70%;
+  display: flex;
+  margin-top: -37%;
+  justify-content: center;
+  padding-left: 1%;
+  padding-top: 6%;
+  background-color: #18206f;
+  border: 2px solid black;
+  padding-bottom: 2%;
+  height: 34vh;
+ }
+
+ .form-group {
+  width: 110%;
+  line-height: 3px;
+  margin-left: -5%;
+ }
+
+ .form-input {
+  width: 100%;
+  padding: -4% 0;
+  height: 3%;
+  font-size: 11px;
+  margin-top: 1%;
+  border: 1px solid black;
+ }
+
+ .form-select {
+  width: 230%;
+  padding: -4% 0;
+  padding-left: 1%;
+  height: 3%;
+  font-size: 11px;
+  margin-top: 1%;
+  border: 1px solid black;
+ }
+
+ .btn4 {
+  font-size: .7rem;
+  color: #fff;
+  background-color: #18206f;
+  margin-top: 45%;
+  margin-left: -99%;
+  padding: 1% 1%;
+  position: absolute;
+ }
+
+ .form-label {
+  font-size: .8rem;
+  font-weight: 400;
+  color: #18206f;
+ }
+
+ .btn5 {
+  font-size: 1rem;
+  color: #18206f;
+  background-color: #d4af37;
+  margin-top: -95%;
+  margin-left: 24%;
+  padding: 6px 16px;
+  text-decoration: none;
+  list-style-type: none;
+  list-style: none;
+  text-decoration: none;
+  border-radius: 30px;
+ }
+}
+textarea{
+ width: 206%;
+ resize: none;
+ height: 15vh;
+}
